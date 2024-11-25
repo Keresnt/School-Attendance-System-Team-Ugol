@@ -1,0 +1,6 @@
+student_id,first_name,last_name,date_of_birth,address,email,guardian_name,phone_number
+1,"Hanes Jedric",Abiera,2006-02-16,"123 Main St.",hanesabiera@gmail.com,Lucy,1234567890
+2,"Kyla Mae",Diel,2003-11-02,"222 Main St.",kyla@gmail.com,Juan,246910121
+3,KC,Sumpio,2001-12-22,"333 Main St.",kc@gmail.com,Jose,26910121
+4,"Zerah Arianne",Sabadisto,2002-07-16,"234 Main St.",zeraharr@gmail.com,Rebecca,98810121
+5,"Rainnear James",Barredo,2030-02-01,"3434 Main St.",rain@gmail.com,Char,923310121

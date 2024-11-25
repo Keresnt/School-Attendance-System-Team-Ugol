@@ -1,0 +1,5 @@
+status_id,status_name
+1,Present
+2,Absent
+3,Late
+4,Excused

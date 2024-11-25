@@ -1,0 +1,43 @@
+CREATE TABLE students (
+    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    date_of_birth DATE,
+    address VARCHAR(100),
+    email VARCHAR(50) UNIQUE,
+    guardian_name VARCHAR(50),
+    phone_number INT
+);
+
+CREATE TABLE classes (
+    class_id INT PRIMARY KEY AUTO_INCREMENT,
+    class_name VARCHAR(50) NOT NULL,
+    teacher_name VARCHAR(50)
+);
+
+CREATE TABLE attendance_status (
+    status_id INT PRIMARY KEY AUTO_INCREMENT,
+    status_name VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE attendance (
+    attendance_id INT PRIMARY KEY AUTO_INCREMENT,
+    student_id INT NOT NULL,
+    class_id INT NOT NULL,
+    attendance_date DATE NOT NULL,
+    status_id INT NOT NULL,
+    FOREIGN KEY (student_id) REFERENCES students(student_id),
+    FOREIGN KEY (class_id) REFERENCES classes(class_id),
+    FOREIGN KEY (status_id) REFERENCES attendance_status(status_id)
+);
+
+CREATE TABLE student_attendance_status (
+    class_id INT NOT NULL,
+    name VARCHAR(30) NOT NULL,
+    class_name VARCHAR(50) NOT NULL,
+    attendance_date DATE NOT NULL,
+    status_name VARCHAR(20) NOT NULL
+);
+
+ALTER TABLE students AUTO_INCREMENT = 6;
+

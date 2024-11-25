@@ -1,0 +1,14 @@
+class_id,name,class_name,attendance_date,status_name
+1,"Hanes Jedric Abiera",Networking,2024-10-26,Absent
+2,"Hanes Jedric Abiera",OOP,2024-10-26,Present
+3,"Hanes Jedric Abiera","Fundamentals of Networking",2024-10-26,Present
+4,"Kyla Mae Diel",Networking,2024-10-26,Late
+5,"Kyla Mae Diel",OOP,2024-10-26,Present
+6,"Kyla Mae Diel","Fundamentals of Networking",2024-10-26,Present
+7,"KC Sumpio",Networking,2024-10-26,Present
+8,"KC Sumpio",OOP,2024-10-26,Present
+9,"KC Sumpio","Fundamentals of Networking",2024-10-26,Present
+10,"Zerah Arianne Sabadisto",Networking,2024-10-26,Excused
+11,"Zerah Arianne Sabadisto",OOP,2024-10-26,Excused
+12,"Zerah Arianne Sabadisto","Fundamentals of Networking",2024-10-26,Late
+32,"Rainnear James Barredo",Networking,2024-10-26,Present
